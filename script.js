@@ -4,3 +4,9 @@ console.log(r)
 r.addEventListener("click", () => {
     alert("Don't right click!!!")
 })
+let r2 = document.getElementById("signin")
+console.log(r2)
+r2.addEventListener("click", () => {
+    document.getElementById("signin").innerHTML = "Signed In"
+}
+)
